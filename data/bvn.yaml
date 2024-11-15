@@ -1,0 +1,28 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: datasets # dataset root dir
+train: images/train # train images (relative to 'path') 118287 images
+val: images/val # val images (relative to 'path') 5000 images
+test: #test-dev2017.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: misc_class_15
+  1: misc_class
+  2: misc_class
+  3: misc_class
+  4: misc_class
+  5: misc_class_5
+  6: misc_class_6
+  7: misc_class_7
+  8: misc_class_8
+  9: misc_class_9
+  10: misc_class_10
+  11: misc_class_11
+  12: misc_class_12
+  13: misc_class_13
+  14: misc_class_14
+  15: hero
+  16: tower
+  17: gress
+  18: monster
+  19: soldier
